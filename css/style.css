@@ -1,0 +1,30 @@
+/*
+RESET
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+html {
+    font-family: "PT Sans", sans-serif;
+}
+
+/*
+GENERAL
+*/
+
+.container {
+
+}
+
+/*
+HEADER
+*/
+
+/*
+RESPONSIVE
+*/
+
