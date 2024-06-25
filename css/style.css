@@ -12,17 +12,61 @@ html {
     font-family: "PT Sans", sans-serif;
 }
 
+:root {
+    --header-blue : #0084FD;
+    --main-skyblue : #B5DDFF;
+    --main-purple : #9692E4;
+    --main-text : #5B6F80;
+    --footer-yellow : #fdc15f;
+    --footer-background : #333333;
+    --hover-color : #fcfc3e;
+    --white : #ffffff;
+}
+
 /*
 GENERAL
 */
 
-.container {
+ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+ .button {
+    background: none;
+    border: none;
+    color: white;
+ }
+
+img {
+    max-width: 100%;
+}
+
+header .list {
+    
 
 }
+
 
 /*
 HEADER
 */
+
+header .container {
+    background-color: #0084FD;
+
+}
+
+header .container i {
+    color: white;
+}
+
+body .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
 
 /*
 RESPONSIVE
