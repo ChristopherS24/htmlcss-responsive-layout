@@ -30,16 +30,22 @@ GENERAL
 header .list {
     display: none;
 }
+
 ul {
     list-style: none;
     display: flex;
     gap: 5px;
 }
+
  .button {
     background: none;
     border: none;
     color: white;
     padding: 5px;
+ }
+
+ .blue-button {
+    background-color: var(--header-blue);
  }
 
  header .white {
@@ -51,6 +57,7 @@ ul {
 img {
     max-width: 100%;
 }
+
 
 /*
 HEADER
