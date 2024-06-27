@@ -27,6 +27,16 @@ html {
 GENERAL
 */
 
+body .container {
+    margin: 0 auto;
+    width: 576px;
+}
+
+body .row {
+    width: 80% ;
+    margin: 0 auto;
+}
+
 header .list {
     display: none;
 }
@@ -58,6 +68,15 @@ img {
     max-width: 100%;
 }
 
+.section-purple {
+    background-color: var(--main-purple);
+}
+
+main .row .card {
+    background-color: var(--main-skyblue) ;
+}
+
+
 
 /*
 HEADER
@@ -72,13 +91,7 @@ header .container i {
     color: white;
 }
 
-body .row {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 80%;
-    align-items: center;
-}
+
 
 /*
 RESPONSIVE
